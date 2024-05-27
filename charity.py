@@ -7,11 +7,14 @@ class Charity:
     phone: str
     website: str
     profileLink: str
-    serviceArea: str
+    address: str
+    ein: str
 
-    def __init__(self, name: str, phone: str, website: str, profile_link: str, service_area: str) -> None:
+    def __init__(self, name: str, phone: str, website: str, profile_link: str, address: str, ein: str) -> None:
         self.name = name
         self.phone = phone
         self.website = website
         self.profileLink = profile_link
-        self.serviceArea = service_area
+        self.address = address
+        self.ein = ein
+
